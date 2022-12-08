@@ -1,0 +1,27 @@
+{
+  "name": "ilyas_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "ilyas_calculator": "bin/app.js"
+  },
+  "dependencies": {
+    "chalk": "^5.1.2",
+    "chalk-animation": "^2.0.3",
+    "figlet": "^1.5.2",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/chalk-animation": "^1.6.1",
+    "@types/figlet": "^1.5.5",
+    "@types/inquirer": "^9.0.3"
+  }
+}
